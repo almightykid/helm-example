@@ -1,5 +1,3 @@
 strimzi-kafka-operator:
-  defaultImageRegistry: quay.io
-  defaultImageRepository: strimzi
   defaultImageTag: 0.32.0
   #featureGates: "-UseKRaft"
