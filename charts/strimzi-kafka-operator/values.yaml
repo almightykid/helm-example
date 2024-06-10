@@ -1,9 +1,7 @@
 strimzi-kafka-operator:
-  defaultImageRegistry: "corti.azurecr.io"
   featureGates: "-UseKRaft"
   
 strimzi-drain-cleaner:
-  defaultImageRegistry: "corti.azurecr.io"
   replicaCount: 2
   image:
     imagePullPolicy: IfNotPresent
