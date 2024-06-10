@@ -5,12 +5,12 @@ description: A wrapper around the upstream strimzi
 type: application
 version: 2.0.3
 
-appVersion: "0.32.0"
+appVersion: "0.40.0"
 
 sources:
   - "https://strimzi.io/charts"
 
 dependencies:
 - name: strimzi-kafka-operator
-  version: "0.32.0"
+  version: "0.40.0"
   repository: "https://strimzi.io/charts"
