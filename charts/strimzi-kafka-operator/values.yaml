@@ -3,5 +3,3 @@ strimzi-kafka-operator:
   defaultImageRepository: strimzi
   defaultImageTag: 0.32.0
   #featureGates: "-UseKRaft"
-  image:
-    name: strimzi-kafka-operator
