@@ -1,0 +1,19 @@
+apiVersion: v2
+name: strimzi-kafka-operator
+description: A wrapper around the upstream strimzi
+
+type: application
+version: 2.0.3
+
+appVersion: "0.40.0"
+
+sources:
+  - "https://strimzi.io/charts"
+
+dependencies:
+- name: strimzi-kafka-operator
+  version: "0.40.0"
+  repository: "https://strimzi.io/charts"
+- name: strimzi-drain-cleaner
+  version: "1.1.0"
+  repository: "https://strimzi.io/charts"
