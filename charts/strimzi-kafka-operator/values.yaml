@@ -1,7 +1,2 @@
 strimzi-kafka-operator:
   featureGates: "-UseKRaft"
-  
-strimzi-drain-cleaner:
-  replicaCount: 2
-  image:
-    imagePullPolicy: IfNotPresent
